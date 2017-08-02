@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties(prefix=("girl"))
-public class Girl {
+public class Girl {  
 	private String cupSize;
 	private String name;
 	private String sex;
